@@ -1,24 +1,25 @@
-# README
+# Teamler
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to Teamler! A team-building hub.
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+Clone this app and then execute:
 
-* System dependencies
+    $ bundle install
 
-* Configuration
+## Usage
 
-* Database creation
+Enter `rails s` into the CLI. 
 
-* Database initialization
+## Contributing
 
-* How to run the test suite
+Bug reports and pull requests are welcome on GitHub at https://github.com/hoyzington/virtpals. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
-* Services (job queues, cache servers, search engines, etc.)
+## License
 
-* Deployment instructions
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
-* ...
+## Code of Conduct
+
+Everyone interacting in the virtpals project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://https://github.com/hoyzington/virtpals/blob/master/CODE_OF_CONDUCT.md).
