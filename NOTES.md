@@ -26,16 +26,15 @@ Admin:  Sign Up, Log In, See Tasks, See Task, See Projs,
 
 PROJECTS
 
-name+, full?, complete?, description+, start_date, deadline,
-  budget+
+name+, description+, budget+, full, complete
 
-Methods: full?, complete?, overdue?, over_budget?
+Methods: full?, complete?
 
 
 TASKS
 
-name+, description+, taken?, complete?, pay+, abilities+,
-  experience, start_date, deadline, feedback, rating
+name+, description+, skills_req+, pay+, candidates,
+  assigned, complete, feedback, rating
 
 Methods: pay, overdue
 
