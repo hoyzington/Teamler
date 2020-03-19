@@ -1,3 +1,9 @@
+TO DO:
+1. Linkedin key & secret in /config/initializers/devise.rb
+2. Linkedin key & secret in .env
+3. http://localhost:3000/users/auth/linkedin/callback
+
+
 USERS > TASKS < PROJECTS
 
 PROJECTS have many TASKS
