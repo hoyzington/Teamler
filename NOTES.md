@@ -9,7 +9,7 @@ USERS have many PROJECTS through TASKS
 
 USERS
 
-name+, email+, password+, bio, abilities+, rating
+name+, email+, password+, bio, skills+, rating
   current_tasks, completed_tasks, balance
 
 Methods: rating, skills
