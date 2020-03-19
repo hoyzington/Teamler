@@ -9,10 +9,10 @@ class DeviseCreateUsers < ActiveRecord::Migration[6.0]
       t.string :encrypted_password, null: false, default: ""
       t.text :bio
       t.string :skills
-      t.integer :current_tasks, 0
-      t.integer :completed_tasks, 0
+      t.integer :current_tasks, default: 0
+      t.integer :completed_tasks, default: 0
       t.string :rating
-      t.integer :balance, 0
+      t.integer :balance, default: 0
 
       ## Recoverable
       t.string   :reset_password_token

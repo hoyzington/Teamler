@@ -5,8 +5,8 @@ class CreateProjects < ActiveRecord::Migration[6.0]
       t.text :description
       t.integer :budget
       t.integer :allocated
-      t.boolean :full, false
-      t.boolean :complete, false
+      t.boolean :full, default: false
+      t.boolean :complete, default: false
 
       t.timestamps
     end

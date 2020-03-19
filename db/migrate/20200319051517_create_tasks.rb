@@ -7,8 +7,8 @@ class CreateTasks < ActiveRecord::Migration[6.0]
       t.integer :pay
       t.string :candidates
       t.integer :worker_id
-      t.boolean :assigned, false
-      t.boolean :complete, false
+      t.boolean :assigned, default: false
+      t.boolean :complete, default: false
       t.text :feedback
       t.integer :rating
       t.integer :user_id
