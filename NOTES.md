@@ -34,7 +34,8 @@ Methods: full?, complete?
 TASKS
 
 name+, description+, skills_req+, pay+, candidates,
-  assigned, complete, feedback, rating
+  worker_id, assigned, complete, feedback, rating, user_id,
+  project_id
 
 Methods: pay, overdue
 

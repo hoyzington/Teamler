@@ -6,10 +6,13 @@ class CreateTasks < ActiveRecord::Migration[6.0]
       t.string :skills_req
       t.integer :pay
       t.string :candidates
+      t.integer :worker_id
       t.boolean :assigned, false
       t.boolean :complete, false
       t.text :feedback
       t.integer :rating
+      t.integer :user_id
+      t.integer :project_id
 
       t.timestamps
     end
