@@ -1,7 +1,7 @@
-USERS PROJECTS TASKS
+USERS > TASKS < PROJECTS
 
-PROJECTS have many USERS through TASKS
 PROJECTS have many TASKS
+PROJECTS have many USERS through TASKS
 
 USERS have many TASKS
 USERS have many PROJECTS through TASKS
@@ -9,10 +9,10 @@ USERS have many PROJECTS through TASKS
 
 USERS
 
-name+, email+, password+, balance, abilities+, experience,
-  completed_tasks, rating, bio
+name+, email+, password+, bio, abilities+, rating
+  current_tasks, completed_tasks, balance
 
-Methods: rating
+Methods: rating, skills
 
 Member:  Sign Up, Log In, See Tasks, See Task, See Projs,
   See Proj, Req Task, Begin Task, Submit Task, Edit Prof,
