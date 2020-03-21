@@ -1,4 +1,8 @@
 <h1>Welcome, <%= @user.name %>.</h1>
+<h2><%= link_to 'Profile', edit_user_registration_path %>
+
 <h2><%= link_to 'New Project', new_project_path %>
 <h2><%= link_to 'Projects', projects_path %>
-<h2><%= link_to 'Profile', edit_user_registration_path %>
+
+<%= @user.current_tasks %>
+<h2><%= link_to 'Find Tasks', tasks_path %>
