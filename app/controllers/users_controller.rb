@@ -4,6 +4,10 @@ class UsersController < ApplicationController
   #  @users = User.all
   #end
 
+  def dashboard
+    @user = User.find(sessions[:user_id])
+  end
+
   def show
     @user = User.find(params[:id])
   end

@@ -1,4 +1,9 @@
-<h1>Welcome, <%= @user.name %>.</h1>
-<h2><%= link_to 'New Project', new_project_path %>
-<h2><%= link_to 'Projects', projects_path %>
-<h2><%= link_to 'Account', edit_user_registration_path %>
+<h2><%= @user.name %></h2>
+<h3><%= @user.email %></h3><br>
+<h3>Rating:  <%= @user.rating or 'none' %></h3>
+<h3>Current Tasks:  <%= @user.current_tasks %></h3>
+<h3>Completed Tasks:  <%= @user.completed_tasks %></h3><br>
+<h3>Skills</h3>
+<p><%= @user.skills %></p><br>
+<h3>Bio</h3>
+<p><%= @user.bio %></p>
